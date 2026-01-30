@@ -97,6 +97,11 @@ git submodule update --init --recursive
 
 ### Set Up the Environment
 
+> **⚠️ Note for ARM64 / NVIDIA Thor Users:**
+> Standard installation steps may fail due to version mismatches.
+> Please check the **[Step-by-Step Installation Guide for DGX Spark/Thor](docs/INSTALL_DGX.md)** before proceeding.
+> 
+
 GR00T uses [uv](https://github.com/astral-sh/uv) for fast, reproducible dependency management.
 
 > **Requirement:** uv **v0.8.4+** is needed to parse `[tool.uv.extra-build-dependencies]` in `pyproject.toml` (required for building `flash-attn`).
